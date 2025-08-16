@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelstorm Cars | Premium Car Dealer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>Kelstorm <span>Cars</span></h1>
+                </div>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="#inventory">Inventory</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Find Your Perfect Drive</h1>
+                <p>Premium vehicles with exceptional service. Your journey to the perfect car starts here.</p>
+                <div class="hero-buttons">
+                    <a href="#inventory" class="btn btn-primary">Browse Inventory</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="search-bar">
+        <div class="container">
+            <div class="search-container">
+                <h2>Find Your Dream Car</h2>
+                <form class="search-form">
+                    <div class="form-group">
+                        <label for="make">Make</label>
+                        <select id="make" name="make">
+                            <option value="">Any Make</option>
+                            <option value="audi">Audi</option>
+                            <option value="bmw">BMW</option>
+                            <option value="mercedes">Mercedes-Benz</option>
+                            <option value="toyota">Toyota</option>
+                            <option value="honda">Honda</option>
+                            <option value="lexus">Lexus</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="model">Model</label>
+                        <select id="model" name="model">
+                            <option value="">Any Model</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="year">Year</label>
+                        <select id="year" name="year">
+                            <option value="">Any Year</option>
+                            <option value="2023">2023</option>
+                            <option value="2022">2022</option>
+                            <option value="2021">2021</option>
+                            <option value="2020">2020</option>
+                            <option value="2019">2019</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="price">Max Price</label>
+                        <select id="price" name="price">
+                            <option value="">Any Price</option>
+                            <option value="20000">$20,000</option>
+                            <option value="30000">$30,000</option>
+                            <option value="40000">$40,000</option>
+                            <option value="50000">$50,000</option>
+                            <option value="60000">$60,000+</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-search">Search</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="featured" class="featured">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Vehicles</h2>
+                <p>Explore our premium selection of featured vehicles</p>
+            </div>
+            <div class="featured-cars">
+                <div class="car-card">
+                    <div class="car-image">
+                        <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="BMW M4">
+                        <div class="car-tag">Featured</div>
+                    </div>
+                    <div class="car-details">
+                        <h3>BMW M4 Competition</h3>
+                        <div class="car-meta">
+                            <span><i class="fas fa-calendar-alt"></i> 2023</span>
+                            <span><i class="fas fa-tachometer-alt"></i> 12,500 mi</span>
+                            <span><i class="fas fa-gas-pump"></i> Petrol</span>
+                        </div>
+                        <div class="car-price">
+                            <span class="price">$82,500</span>
+                        </div>
+                        <div class="car-actions">
+                            <a href="#" class="btn btn-outline">View Details</a>
+                            <a href="#" class="btn btn-primary">Schedule Test Drive</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="car-card">
+                    <div class="car-image">
+                        <img src="https://images.unsplash.com/photo-1617814076668-8dfc6fe3b324?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80" alt="Mercedes-Benz S-Class">
+                        <div class="car-tag">New Arrival</div>
+                    </div>
+                    <div class="car-details">
+                        <h3>Mercedes-Benz S-Class</h3>
+                        <div class="car-meta">
+                            <span><i class="fas fa-calendar-alt"></i> 2023</span>
+                            <span><i class="fas fa-tachometer-alt"></i> 5,200 mi</span>
+                            <span><i class="fas fa-gas-pump"></i> Hybrid</span>
+                        </div>
+                        <div class="car-price">
+                            <span class="price">$110,000</span>
+                        </div>
+                        <div class="car-actions">
+                            <a href="#" class="btn btn-outline">View Details</a>
+                            <a href="#" class="btn btn-primary">Schedule Test Drive</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="car-card">
+                    <div class="car-image">
+                        <img src="https://images.unsplash.com/photo-1619682817481-e994891cd1f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80" alt="Audi e-tron GT">
+                        <div class="car-tag">Electric</div>
+                    </div>
+                    <div class="car-details">
+                        <h3>Audi e-tron GT</h3>
+                        <div class="car-meta">
+                            <span><i class="fas fa-calendar-alt"></i> 2023</span>
+                            <span><i class="fas fa-tachometer-alt"></i> 3,100 mi</span>
+                            <span><i class="fas fa-charging-station"></i> Electric</span>
+                        </div>
+                        <div class="car-price">
+                            <span class="price">$104,900</span>
+                        </div>
+                        <div class="car-actions">
+                            <a href="#" class="btn btn-outline">View Details</a>
+                            <a href="#" class="btn btn-primary">Schedule Test Drive</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all">
+                <a href="#inventory" class="btn btn-secondary">View All Vehicles</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>We offer comprehensive automotive solutions</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>Vehicle Sales</h3>
+                    <p>Browse our extensive inventory of premium new and pre-owned vehicles.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Maintenance & Repairs</h3>
+                    <p>Professional service and maintenance by certified technicians.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-money-check-alt"></i>
+                    </div>
+                    <h3>Financing Options</h3>
+                    <p>Flexible financing solutions tailored to your budget and needs.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-exchange-alt"></i>
+                    </div>
+                    <h3>Trade-In Services</h3>
+                    <p>Get the best value for your current vehicle with our trade-in program.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Extended Warranty</h3>
+                    <p>Protect your investment with our comprehensive warranty packages.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Vehicle Delivery</h3>
+                    <p>Convenient delivery options to your home or office location.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1560769629-975ec94e6a86?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2064&q=80" alt="Kelstorm Cars Showroom">
+                </div>
+                <div class="about-text">
+                    <div class="section-header">
+                        <h2>About Kelstorm Cars</h2>
+                        <p>Your trusted partner in automotive excellence</p>
+                    </div>
+                    <p>At Kelstorm Cars, we pride ourselves on delivering exceptional automotive experiences. With over 15 years in the industry, we've built a reputation for quality, integrity, and customer satisfaction.</p>
+                    <p>Our team of automotive experts is dedicated to helping you find the perfect vehicle that matches your lifestyle and budget. We carefully select and inspect each vehicle in our inventory to ensure the highest quality standards.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-text">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5000+</span>
+                            <span class="stat-text">Happy Customers</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">200+</span>
+                            <span class="stat-text">Premium Vehicles</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Customer Testimonials</h2>
+                <p>What our satisfied customers have to say</p>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"This place is without a doubt the best car dealership ever. The staff is phenomenal and they do whatever it takes to make sure customers leave satisfied. I couldn't have asked for a better experience or service."</p>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="John Smith">
+                            </div>
+                            <div class="author-info">
+                                <h4>John Smith</h4>
+                                <p>Purchased BMW X5</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Great buying experience! They were upfront and honest. I went to 5 different dealerships before this one, and this is the only one that was straightforward and didn't add in random fees."</p>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Johnson">
+                            </div>
+                            <div class="author-info">
+                                <h4>Sarah Johnson</h4>
+                                <p>Purchased Audi Q7</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Their customer service is second to none. The team did not hesitate when I requested that the car be inspected by two different shops before I purchased it. They even offered to take the car in for me since I live far away."</p>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Michael Davis">
+                            </div>
+                            <div class="author-info">
+                                <h4>Michael Davis</h4>
+                                <p>Purchased Mercedes E-Class</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="section-header">
+                        <h2>Contact Us</h2>
+                        <p>We're here to help with any questions</p>
+                    </div>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Visit Us</h4>
+                                <p>123 Automotive Avenue, Carville, CA 90210</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Call Us</h4>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email Us</h4>
+                                <p>info@kelstormcars.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Business Hours</h4>
+                                <p>Monday - Friday: 9:00 AM - 7:00 PM</p>
+                                <p>Saturday: 10:00 AM - 5:00 PM</p>
+                                <p>Sunday: Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a Subject</option>
+                                <option value="sales">Vehicle Sales</option>
+                                <option value="service">Service & Maintenance</option>
+                                <option value="financing">Financing</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Find Your Dream Car?</h2>
+                <p>Visit our showroom today or schedule a test drive online.</p>
+                <div class="cta-buttons">
+                    <a href="#inventory" class="btn btn-primary">Browse Inventory</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Kelstorm <span>Cars</span></h2>
+                    <p>Your trusted partner in automotive excellence.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#inventory">Inventory</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#testimonials">Testimonials</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">New Vehicles</a></li>
+                            <li><a href="#">Pre-Owned Vehicles</a></li>
+                            <li><a href="#">Financing</a></li>
+                            <li><a href="#">Service & Maintenance</a></li>
+                            <li><a href="#">Parts & Accessories</a></li>
+                            <li><a href="#">Vehicle Trade-In</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Working Hours</h3>
+                        <ul class="hours">
+                            <li>Monday - Friday: 9:00 AM - 7:00 PM</li>
+                            <li>Saturday: 10:00 AM - 5:00 PM</li>
+                            <li>Sunday: Closed</li>
+                        </ul>
+                        <h3>Contact</h3>
+                        <ul class="contact">
+                            <li><i class="fas fa-phone-alt"></i> +1 (555) 123-4567</li>
+                            <li><i class="fas fa-envelope"></i> info@kelstormcars.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; 2023 Kelstorm Cars. All Rights Reserved.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
